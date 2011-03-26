@@ -1,0 +1,5 @@
+# This works for PHP5 in both Apache versions 1 and 2
+<IfModule mod_php5.c>
+    php_value include_path ".:/usr/local/lib/php:/home/ravikira/public_html/drupal/sites/all/hacks/yap/googledata/ZendGdata-1.11.3/library"
+    </IfModule>
+

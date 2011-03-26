@@ -1,0 +1,6 @@
+[26-Mar-2011 13:04:57] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_HttpException' with message 'Unable to Connect to tcp://gdata.youtube.com:80. Error #110: Connection timed out' in /home/ravikira/public_html/drupal/sites/all/hacks/youtube-yap-app/googledata/ZendGdata-1.11.3/library/Zend/Gdata/App.php:688
+Stack trace:
+#0 /home/ravikira/public_html/drupal/sites/all/hacks/youtube-yap-app/googledata/ZendGdata-1.11.3/library/Zend/Gdata.php(221): Zend_Gdata_App->performHttpRequest('GET', 'http://gdata.yo...', Array, NULL, NULL, NULL)
+#1 /home/ravikira/public_html/drupal/sites/all/hacks/youtube-yap-app/googledata/ZendGdata-1.11.3/library/Zend/Gdata/App.php(875): Zend_Gdata->performHttpRequest('GET', 'http://gdata.yo...', Array)
+#2 /home/ravikira/public_html/drupal/sites/all/hacks/youtube-yap-app/googledata/ZendGdata-1.11.3/library/Zend/Gdata/App.php(763): Zend_Gdata_App->get('http://gdata.yo...', NULL)
+#3 /home/ravikira/public_html/drupal/sites/all/hacks/youtube-yap-app/googledata/ZendGdata-1.11.3/library/Zend/Gdata/App.php(205): Zend_Gdata_App-> in /home/ravikira/public_html/drupal/sites/all/hacks/youtube-yap-app/googledata/ZendGdata-1.11.3/library/Zend/Gdata/App.php on line 688

@@ -1,0 +1,29 @@
+.bd{
+    margin-top:15px;
+}
+.heading {
+    font-size: 130%;
+    font-weight: bold;
+    text-align:center;
+}
+.image-prev{
+    margin: auto;
+    text-align: center;
+}
+.image-prev img{
+    border: 5px solid #C0C0C0;
+}
+a{
+    display:block;
+    text-decoration: none;
+    color: #0066CC;  
+}
+a:visited{
+    color: #551A8B;
+}
+a:hover{
+    text-decoration: underline;
+}
+.info {
+    text-align:center;
+}
